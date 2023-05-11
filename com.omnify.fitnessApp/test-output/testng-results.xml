@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-11T10:04:21Z" name="FitnessAppAutomation" finished-at="2023-05-11T10:10:02Z" duration-ms="340683">
+    <groups>
+    </groups>
+    <test started-at="2023-05-11T10:04:21Z" name="RegressionTest" finished-at="2023-05-11T10:10:02Z" duration-ms="340683">
+      <class name="com.omnify.fitnessApp.SampleTestScripts.TS03_Settings_Validation">
+        <test-method is-config="true" signature="_LaunchApp()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS03_Settings_Validation@1ca3b418]" started-at="2023-05-11T15:36:45Z" name="_LaunchApp" finished-at="2023-05-11T15:37:09Z" duration-ms="24037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _LaunchApp -->
+        <test-method signature="reminderCheck()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS03_Settings_Validation@1ca3b418]" started-at="2023-05-11T15:37:09Z" name="reminderCheck" finished-at="2023-05-11T15:37:39Z" duration-ms="30300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reminderCheck -->
+        <test-method is-config="true" signature="result(org.testng.ITestResult)[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS03_Settings_Validation@1ca3b418]" started-at="2023-05-11T15:37:40Z" name="result" finished-at="2023-05-11T15:37:40Z" duration-ms="296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reminderCheck status=SUCCESS method=TS03_Settings_Validation.reminderCheck()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS03_Settings_Validation@1ca3b418] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+      </class> <!-- com.omnify.fitnessApp.SampleTestScripts.TS03_Settings_Validation -->
+      <class name="com.omnify.fitnessApp.SampleTestScripts.TS04_WaterTrackerActivity_Validation">
+        <test-method is-config="true" signature="_LaunchApp()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS04_WaterTrackerActivity_Validation@58cbafc2]" started-at="2023-05-11T15:37:40Z" name="_LaunchApp" finished-at="2023-05-11T15:38:04Z" duration-ms="23829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _LaunchApp -->
+        <test-method signature="waterActivityCheck()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS04_WaterTrackerActivity_Validation@58cbafc2]" started-at="2023-05-11T15:38:04Z" name="waterActivityCheck" finished-at="2023-05-11T15:39:08Z" duration-ms="64695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waterActivityCheck -->
+        <test-method is-config="true" signature="result(org.testng.ITestResult)[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS04_WaterTrackerActivity_Validation@58cbafc2]" started-at="2023-05-11T15:39:09Z" name="result" finished-at="2023-05-11T15:39:09Z" duration-ms="359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=waterActivityCheck status=SUCCESS method=TS04_WaterTrackerActivity_Validation.waterActivityCheck()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS04_WaterTrackerActivity_Validation@58cbafc2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+      </class> <!-- com.omnify.fitnessApp.SampleTestScripts.TS04_WaterTrackerActivity_Validation -->
+      <class name="com.omnify.fitnessApp.SampleTestScripts.TS02_Reminder_Validations">
+        <test-method is-config="true" signature="_LaunchApp()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS02_Reminder_Validations@235ecd9f]" started-at="2023-05-11T15:35:50Z" name="_LaunchApp" finished-at="2023-05-11T15:36:15Z" duration-ms="24513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _LaunchApp -->
+        <test-method signature="reminderCheck()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS02_Reminder_Validations@235ecd9f]" started-at="2023-05-11T15:36:15Z" name="reminderCheck" finished-at="2023-05-11T15:36:44Z" duration-ms="29468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reminderCheck -->
+        <test-method is-config="true" signature="result(org.testng.ITestResult)[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS02_Reminder_Validations@235ecd9f]" started-at="2023-05-11T15:36:45Z" name="result" finished-at="2023-05-11T15:36:45Z" duration-ms="320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reminderCheck status=SUCCESS method=TS02_Reminder_Validations.reminderCheck()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS02_Reminder_Validations@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+      </class> <!-- com.omnify.fitnessApp.SampleTestScripts.TS02_Reminder_Validations -->
+      <class name="com.omnify.fitnessApp.SampleTestScripts.TS05_ShareActivity_Validation">
+        <test-method is-config="true" signature="_LaunchApp()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS05_ShareActivity_Validation@2034b64c]" started-at="2023-05-11T15:39:09Z" name="_LaunchApp" finished-at="2023-05-11T15:39:33Z" duration-ms="23750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _LaunchApp -->
+        <test-method signature="shareActivityCheck()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS05_ShareActivity_Validation@2034b64c]" started-at="2023-05-11T15:39:33Z" name="shareActivityCheck" finished-at="2023-05-11T15:40:02Z" duration-ms="28907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareActivityCheck -->
+        <test-method is-config="true" signature="result(org.testng.ITestResult)[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS05_ShareActivity_Validation@2034b64c]" started-at="2023-05-11T15:40:02Z" name="result" finished-at="2023-05-11T15:40:02Z" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shareActivityCheck status=SUCCESS method=TS05_ShareActivity_Validation.shareActivityCheck()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS05_ShareActivity_Validation@2034b64c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+      </class> <!-- com.omnify.fitnessApp.SampleTestScripts.TS05_ShareActivity_Validation -->
+      <class name="com.omnify.fitnessApp.SampleTestScripts.TS01_Home_Validations">
+        <test-method is-config="true" signature="launchAppiumAndEmulator()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS01_Home_Validations@117159c0]" started-at="2023-05-11T15:34:15Z" name="launchAppiumAndEmulator" finished-at="2023-05-11T15:34:21Z" duration-ms="6041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAppiumAndEmulator -->
+        <test-method is-config="true" signature="_LaunchApp()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS01_Home_Validations@117159c0]" started-at="2023-05-11T15:34:22Z" name="_LaunchApp" finished-at="2023-05-11T15:34:50Z" duration-ms="27774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _LaunchApp -->
+        <test-method signature="homeCheck()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS01_Home_Validations@117159c0]" started-at="2023-05-11T15:34:50Z" name="homeCheck" finished-at="2023-05-11T15:35:49Z" duration-ms="59681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeCheck -->
+        <test-method is-config="true" signature="result(org.testng.ITestResult)[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS01_Home_Validations@117159c0]" started-at="2023-05-11T15:35:50Z" name="result" finished-at="2023-05-11T15:35:50Z" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homeCheck status=SUCCESS method=TS01_Home_Validations.homeCheck()[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS01_Home_Validations@117159c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method is-config="true" signature="finish(org.testng.ITestContext)[pri:0, instance:com.omnify.fitnessApp.SampleTestScripts.TS01_Home_Validations@117159c0]" started-at="2023-05-11T15:40:03Z" name="finish" finished-at="2023-05-11T15:40:03Z" duration-ms="373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@30ca0779]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.omnify.fitnessApp.SampleTestScripts.TS01_Home_Validations -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- FitnessAppAutomation -->
+</testng-results>
